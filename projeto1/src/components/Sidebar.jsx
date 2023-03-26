@@ -1,5 +1,7 @@
 import styles from "./Sidebar.module.css";
 
+import { FaPencilAlt } from "react-icons/fa";
+
 export function Sidebar() {
 	return (
 		<aside className={styles.sidebar}>
@@ -9,12 +11,20 @@ export function Sidebar() {
 			/>
 
 			<div className={styles.profile}>
-				<strong>Diego Fernandes</strong>
+				<img
+					className={styles.avatar}
+					src="https://avatars.githubusercontent.com/u/88116771?v=4"
+				/>
+
+				<strong>Víctor Barreto</strong>
 				<span>Web Developer</span>
 			</div>
 
 			<footer>
-				<a href="#">Editar seu perfil</a>
+				<a href="#">
+					<FaPencilAlt size={20} />
+					Editar seu perfil
+				</a>
 			</footer>
 		</aside>
 	);
