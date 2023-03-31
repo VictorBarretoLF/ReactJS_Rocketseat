@@ -2,10 +2,16 @@ import styles from "./Comment.module.css";
 
 import { FiThumbsUp, FiThumbsDown, FiTrash2 } from "react-icons/fi";
 
+import { Avatar } from "./Avatar";
+
 export function Comment() {
 	return (
 		<div className={styles.comment}>
-			<img src="https://avatars.githubusercontent.com/u/88116771?v=4" alt="" />
+			<Avatar
+				hasBorder={false}
+				src="https://avatars.githubusercontent.com/u/88116771?v=4"
+				alt=""
+			/>
 
 			<div className={styles.commentBox}>
 				<div className={styles.commentContent}>
