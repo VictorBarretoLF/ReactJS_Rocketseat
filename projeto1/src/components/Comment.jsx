@@ -10,7 +10,7 @@ export function Comment() {
 			<Avatar
 				hasBorder={false}
 				src="https://avatars.githubusercontent.com/u/88116771?v=4"
-				alt=""
+				alt="usuário"
 			/>
 
 			<div className={styles.commentBox}>
