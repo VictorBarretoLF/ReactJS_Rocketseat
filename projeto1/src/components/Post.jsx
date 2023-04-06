@@ -1,8 +1,14 @@
 import { format, formatDistanceToNow } from "date-fns";
 import { ptBR } from "date-fns/locale";
+
+// COMPONENTS
 import { Avatar } from "./Avatar";
 import { Comment } from "./Comment";
 
+// HOOKS
+import { useState } from "react";
+
+// STYLES
 import styles from "./Post.module.css";
 import { useState } from "react";
 
