@@ -4,7 +4,10 @@ import { FiThumbsUp, FiThumbsDown, FiTrash2 } from "react-icons/fi";
 
 import { Avatar } from "./Avatar";
 
-export function Comment() {
+export function Comment({ content, onDeleteComment }) {
+	function handleDeleteComment() {
+		onDeleteComment(content);
+	}
 	return (
 		<div className={styles.comment}>
 			<Avatar
@@ -23,7 +26,7 @@ export function Comment() {
 							</time>
 						</div>
 
-						<button title="Deletar comentário">
+						<button title="Deletar comentário" onClick={handleDeleteComment}>
 							<FiTrash2 />
 						</button>
 					</header>
