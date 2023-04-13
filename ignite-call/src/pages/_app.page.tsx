@@ -3,6 +3,8 @@ import { globalStyles } from "../styles/global";
 
 globalStyles();
 
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
     return <Component {...pageProps} />;
 }
+
+export default App;
