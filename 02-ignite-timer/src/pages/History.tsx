@@ -1,7 +1,3 @@
-import React from "react";
-
-function History() {
-    return <div></div>;
+export function History() {
+    return <div>teste history</div>;
 }
-
-export default History;
