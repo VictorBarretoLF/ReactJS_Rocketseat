@@ -7,3 +7,4 @@
 -   **React Router Dom**
 -   **TypeScript**
 -   **phosphor-react**
+-   **<datalist>** como lista de sugestões
