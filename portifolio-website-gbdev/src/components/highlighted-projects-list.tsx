@@ -37,7 +37,7 @@ export const HighlightedProjectsList = () => {
                     </div>
                 ))}
                 <p>
-                    <span className="text-gray-400">Se interessou? </span>
+                    <span className="text-gray-400">Se interessou?</span>
                     <Link href="/projects" className="inline-flex">
                         Ver todos
                         <HiArrowNarrowRight />
